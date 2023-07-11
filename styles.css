@@ -1,0 +1,318 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato';
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background: rgba(229, 84, 115, 0.10);
+  padding: 0px 140px;
+  gap: 10px;
+}
+
+.hero-img {
+  max-width: 70%;
+}
+
+.hero-left {
+  width: 80%;
+}
+
+.hero-content {
+  width: 55%;
+}
+
+.hero-title {
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.shop-btn {
+  all: unset;
+  display: inline-flex;
+  padding: 10px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #E55473;
+  border: 1px solid pink;
+  cursor: pointer;
+  transition: 1s ease-in-out background-color;
+  color: white;
+}
+
+.shop-btn:hover {
+  background-color: #ff809b;
+}
+
+.feature_flower {
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature_flower_top{
+  width: 430px;
+}
+
+.feature_flower_top h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.feature_flower_top p{
+  text-align: center;
+  font-size: 15px;
+}
+
+.flower_container{
+  display: flex;
+  gap: 50px;
+}
+
+.flower_img {
+  width: 200px;
+  height: 250px;
+  object-fit: contain
+
+}
+
+.flower u {
+  text-align: center;
+}
+
+.flower_media {
+  padding: 20px;
+}
+
+.flower_media:first-child {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.flower_media:nth-child(2) {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.flower_media:last-child {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.feature_flower_bottom {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  padding: 20px 0px;
+  margin-top: 40px;
+}
+
+.flower-p {
+  font-style: 15px;
+}
+
+.feature-flower-div {
+  text-align: center;
+}
+
+.signup-section {
+  background: rgba(229, 84, 115, 0.05);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+}
+
+.signup {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.signup-flower {
+  max-width: 80%;
+}
+
+.off, .flower {
+  color: #E55473;
+}
+
+.signup-content {
+  text-align: center;
+}
+
+.rectangle-flower-img {
+  max-width: 100%;
+}
+
+.submit-img {
+  width: 100%;
+  padding: 0px 125px;
+}
+
+.submit-cont {
+  position: relative;
+}
+
+.submit-form {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submit-form h1, .submit-form p {
+  margin: 0;
+}
+
+.submit-form h1 {
+  margin-bottom: 10px;
+}
+
+.submit-form p {
+  margin-bottom: 20px;
+}
+
+.submit_input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid white;
+  outline: white;
+  background-image: none !important;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.input-container button {
+  background-color: #E55473;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 0px 15px;
+  width: 130px;
+  cursor: pointer;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111010;
+}
+
+.footer div {
+  width: 500px;
+  color: white;
+  text-align: center;
+}
+
+.footer-p1 {
+  font-size: 12px;
+}
+
+.footer-p2 {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.40);
+}
+
+.sale-flower {
+  display: flex;
+
+}
+
+.sale_text {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 65px;
+}
+
+.sale_flower h4 {
+  text-align: center;
+}
+
+.sale_flower p {
+  text-align: center;
+  margin: auto;
+  color: #E55473;
+}
+
+.sale_flower_container{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  background-image: url("assets/bg.jpg");
+  padding: 20px 0 10px 0;
+}
+
+.sale_flower_media {
+  padding: 20px;
+}
+
+.sale_flower_media:first-child {
+  background-color: #d78b9b;
+  height: 145px;
+  border-radius: 20px;
+}
+
+.sale_flower_media:nth-child(2) {
+  background-color: rgb(83, 128, 146);
+}
+
+.sale_flower_media:nth-child(3) {
+  background-color: rgb(91, 134, 91);
+}
+
+.flower_media:last-child {
+  background-color: #d78b9b;
+}
+.sale-button {
+  all: unset;
+  display: inline-flex;
+  padding: 10px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #E55473;
+  border: 1px solid pink;
+  cursor: pointer;
+  transition: 1s ease-in-out background-color;
+  color: white;
+  margin: 10px 0 0 65px;
+}
+.sale_flower_img {
+  width: 200px;
+  height: 145px;
+  object-fit: contain;
+}
+
+.sale-button:hover {
+  background-color: #ff809b;
+}
+
+.submit-section {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
